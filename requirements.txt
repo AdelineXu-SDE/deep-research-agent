@@ -1,0 +1,129 @@
+# =========================
+# Core dependencies
+# =========================
+python-dotenv
+pydantic
+typing-extensions
+
+# =========================
+# LangChain ecosystem
+# =========================
+langchain
+langchain-community
+langchain-core
+langchain-huggingface
+langchain-ollama
+langchain-openai
+langgraph
+langsmith
+langchain-google-genai
+langchain-google-vertexai
+langchain-qdrant
+
+# =========================
+# DeepAgents
+# =========================
+deepagents
+
+# =========================
+# Document processing
+# =========================
+pymupdf
+pypdf2
+unstructured
+openpyxl
+python-pptx
+python-magic
+docx2txt
+markitdown[all]
+docutils
+xmltodict
+
+# Docling (start without [vlm] to avoid heavy deps & conflicts)
+docling
+
+# =========================
+# Vector stores & embeddings
+# =========================
+faiss-cpu
+
+# =========================
+# NLP & ML
+# =========================
+nltk
+numpy<2
+scipy==1.13.1
+tiktoken
+
+# =========================
+# API clients
+# =========================
+ollama
+openai
+tavily-python
+google-genai
+
+# =========================
+# Web scraping & searching
+# =========================
+beautifulsoup4
+lxml
+selenium
+duckduckgo-search
+ddgs
+# wikipedia-api   # enable only if the lesson needs it
+
+# =========================
+# Database
+# =========================
+pymysql
+
+# =========================
+# Web framework
+# =========================
+streamlit
+
+# =========================
+# Utilities (HF / LLM tooling)
+# =========================
+huggingface-hub
+transformers
+tokenizers
+datasets
+evaluate
+accelerate
+
+# Torch (keep, because sentence-transformers usually needs it)
+torch
+torchvision
+
+ipywidgets
+jupyter
+nest_asyncio
+
+# =========================
+# Media processing
+# =========================
+pytube
+youtube-transcript-api
+
+# =========================
+# Additional tools
+# =========================
+email-validator
+textblob
+pymupdf4llm
+langgraph-checkpoint-sqlite
+langgraph-checkpoint-postgres
+psycopg
+psycopg-binary
+rank_bm25
+sentence-transformers
+hf_xet
+langchain-mcp-adapters
+
+# =========================
+# Embedding runtimes
+# =========================
+fastembed
+# fastembed-gpu  # macOS usually doesn't benefit; enable only if explicitly required

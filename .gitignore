@@ -1,0 +1,28 @@
+# Python
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+
+# Secrets
+.env
+
+# Runtime artifacts
+agent_files/
+research_outputs/
+
+data/
+data/*.db
+data/**/*.db
+
+
+# LangChain / LangGraph
+.langgraph/
+.langsmith/
+
+# OS
+.DS_Store
