@@ -77,7 +77,6 @@ To explore different levels of agent abstraction and control, this project provi
   - Custom agent logic
   - Research / infra-level agent systems
 
----
 
 ### 2️⃣ DeepAgents-Based Agent (High-Level Composition)
 
@@ -140,6 +139,14 @@ deep-research-agent/
     - `QDRANT_API_KEY`
     - `QDRANT_URL`
     - _(Optional)_ `LANGSMITH_API_KEY`
+
+## 🧪 Example Queries
+
+These are example research questions the system is designed to handle:
+
+- "Compare Apple and Amazon's 2024 revenue and profitability"
+- "Summarize Amazon Q1 2024 revenue with SEC citations"
+- "Analyze Nvidia's recent performance using historical filings and live market data"
 
 ## 📄 Example Output
 
